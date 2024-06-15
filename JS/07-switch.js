@@ -21,3 +21,4 @@ switch (edad) {
         imprime ="Tu edad es neutra";
         break;
 }
+console.log(imprime);
