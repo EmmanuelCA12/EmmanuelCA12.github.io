@@ -13,4 +13,4 @@ var verdadero_o_falso= true;
 
 var numero_falso="33";
 
-Number (numero_falso);
+console.log(Number (numero_falso)+87);
