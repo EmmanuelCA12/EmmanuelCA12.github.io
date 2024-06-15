@@ -8,3 +8,4 @@ var pais_y_continente="México"+" "+"America";
 
 console.log(pais, Continente, antiguedad);
 alert(pais_y_continente);
+alert("Prueba");
