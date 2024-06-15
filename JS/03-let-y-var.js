@@ -1,6 +1,7 @@
 'use strict'
 //Pruebas let y var
 var numero=40;
+console.log(numero);
 
 if (true) {
     var numero=50;
