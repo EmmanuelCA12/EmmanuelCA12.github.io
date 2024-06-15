@@ -1,12 +1,13 @@
 'use strict'
 
 //Alerta
-alert("Holaaaaa");
+var alerta = alert("Holaaaaa");
 
 //Confirmación
 
-confirm("Estas seguuro de querer continua");
+var confirmación = confirm("Estas seguuro de querer continua");
 
 //Ingreso de datos
 
-prompt("¿Que edad tienes?", 0);
+var edad = prompt("¿Que edad tienes?", 0);
+
