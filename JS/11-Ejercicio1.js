@@ -11,5 +11,6 @@ if (nombre1 = "Hector Garcia") {
     alert("El segundo número "+numero2+" es mayor que el número "+numero1);
 }else if (numero1 == numero2) {
     alert("Los dos números son iguales");
-}
     */
+}
+    
