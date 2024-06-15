@@ -7,7 +7,7 @@ var numero2 = prompt("Ingresa el segundo número");
 
 if (numero1 > numero2) {
     alert("El primer número "+numero1+" es mayor que el número "+numero2 );
-}else if (numero1 < numero2) {
+}else if (numero2 < numero1) {
     alert("El segundo número "+numero2+" es mayor que el número "+numero1);
 }else if (numero1 == numero2) {
     alert("Los dos números son iguales");
