@@ -6,4 +6,5 @@ var Continente="America";
 var antiguedad="2019";
 var pais_y_continente="México"+" "+"America";
 
-console.log(pais_y_continente, antiguedad);
+console.log(pais, Continente, antiguedad);
+alert(pais_y_continente);
