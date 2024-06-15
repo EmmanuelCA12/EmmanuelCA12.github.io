@@ -1,3 +1,5 @@
+'use strict'
+
 //Variables
 // se puede almacenar datos en una variable.
 
