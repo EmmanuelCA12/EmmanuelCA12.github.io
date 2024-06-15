@@ -11,3 +11,6 @@ var confirmación = confirm("Estas seguuro de querer continua");
 
 var edad = prompt("¿Que edad tienes?", 0);
 
+console.log(alerta);
+console.log(confirmación);
+console.log(edad);
