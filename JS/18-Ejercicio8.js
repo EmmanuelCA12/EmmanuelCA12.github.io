@@ -15,10 +15,10 @@ var resultado = "La suma es: "+(numero1+numero2)+"<br/>"+
 "La multiplciación es: "+(numero1*numero2)+"<br/>"+
 "La division es: "+(numero1/numero2)+"<br/>";
 
-var resultadoCMD = "La suma es: "+(numero1+numero2)+"<br/>"+ 
-"la resta es: "+(numero1-numero2)+"<br/>"+
-"La multiplciación es: "+(numero1*numero2)+"<br/>"+
-"La division es: "+(numero1/numero2)+"<br/>";
+var resultadoCMD = "La suma es: "+(numero1+numero2)+"\n"+ 
+"la resta es: "+(numero1-numero2)+"\n"+
+"La multiplciación es: "+(numero1*numero2)+"\n"+
+"La division es: "+(numero1/numero2)+"\n";
 
 document.write(resultado);
 alert(resultadoCMD);
