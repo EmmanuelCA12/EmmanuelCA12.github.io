@@ -15,5 +15,5 @@ for (var j = 1; j <=10 ; j++) {
     document.write("<h1>Tabla del "+numero+"</h1>");
     for (var j = 1; j <= 10 ; j++) {
         document.write(j+" X "+numero+" = "+(j*numero)+ "<br/>");
-    
+    }
 }
