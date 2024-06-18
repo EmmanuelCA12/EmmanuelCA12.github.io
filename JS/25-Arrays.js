@@ -8,3 +8,6 @@ var lenguajes = new Array("PHP","JS","Go", "Java", "HTML", "Phyton");
 
 console.log(nombres);
 console.log(lenguajes);
+
+var elemento = parseInt(prompt("Ingresa el dato que valor que deseas buscar:", 0));
+alert(lenguajes[elemento]);
