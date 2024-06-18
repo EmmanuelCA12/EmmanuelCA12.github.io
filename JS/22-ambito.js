@@ -6,5 +6,5 @@ function holamundo (texto){
 }
 
 var numero = 56;
-var texto = "Hola mundo, soy una variable globar";
+var texto = "Hola mundo, soy una variable global";
 holamundo(texto);
