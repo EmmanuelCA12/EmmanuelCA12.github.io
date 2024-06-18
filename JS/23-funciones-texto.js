@@ -9,3 +9,9 @@ var texto2 = "Soy la verga en todo";
 var dato = numero.toString();
     dato = texto1.toUpperCase();
 console.log(dato);
+
+//Calcular longitud
+
+var nombre = "Esto es una prueba para saber el número de letras";
+
+console.log(nombre.length);
