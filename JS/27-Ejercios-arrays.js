@@ -32,3 +32,22 @@ mostrarArray(numeros);
 //Ordenar y mostrar
 numeros.sort(function(a,b){return a-b});
 mostrarArray(numeros, "ordenados");
+
+//Invertir y mostrar
+numeros.reverse(function(a,b){return b-a});
+mostrarArray(numeros, "invertido");
+
+//Elementos del array
+numeros.length;
+document.write("<h1>El Array tiene "+numeros+"</h1>");
+
+//Busqueda
+var busqueda = parseInt(prompt("Busca un número", 0));
+var posicion = numeros.findIndex(numero => numero == busqueda);
+if (posicion && posicion != -1) {
+    document.write("<h1>ENCONTRADO</h1>");
+    document.write("<h1>Posición de la busqueda: "+posicion+"</h1>");
+}else{
+    document.write("<h1>NO ENCONTRADO</h1>");
+}
+
