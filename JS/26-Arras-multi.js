@@ -6,3 +6,6 @@ var peliculas = ["Transformes", "El Aro", "Son como niños", "La dama y el vagab
 var cine = [categorias, peliculas];
 
 console.log(cine);
+
+peliculas.push("Batman");
+console.log(peliculas);
