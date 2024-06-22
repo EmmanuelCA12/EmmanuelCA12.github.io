@@ -9,7 +9,7 @@ Mostrar cuantos elementos tiene el array
 Busqueda de un valor introducido por el usuario y que nos diga si esta en el array y que nos diga su posición
 */
 function mostrarArray (elementos, textoCustom = "") {
-    document.write("<h1>Contenido del array"+textoCustom+"</h1>");
+    document.write("<h1>Contenido del array "+textoCustom+"</h1>");
     document.write("<ul>");
     numeros.forEach((elementos, index) => {
     document.write("<li>"+elementos+"</li>");
