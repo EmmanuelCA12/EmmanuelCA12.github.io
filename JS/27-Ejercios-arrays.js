@@ -44,9 +44,9 @@ document.write("<h1>El Array tiene "+numeros.length+"</h1>");
 var busqueda = parseInt(prompt("Busca un número", 0));
 var posicion = numeros.findIndex(numero => numero == busqueda);
 if (posicion && posicion != -1) {
-    document.write("<h1>ENCONTRADO</h1>");
-    document.write("<h1>Posición de la busqueda: "+posicion+"</h1>");
+    document.write("<hr><h1>ENCONTRADO</h1></hr>");
+    document.write("<hr><h1>Posición de la busqueda: "+posicion+"</h1></hr>");
 }else{
-    document.write("<h1>NO ENCONTRADO</h1>");
+    document.write("<hr><h1>NO ENCONTRADO</h1></hr>");
 }
 
