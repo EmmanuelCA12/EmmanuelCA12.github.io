@@ -24,15 +24,11 @@ for(var i=0; i<=5; i++){
     //numeros[i] = parseInt(prompt("Introduce un número", 0));
     numeros.push(parseInt(prompt("Introduce un número", 0))); 
 }
-mostrarArray(numeros);
 //Mostrar un array por la consola
 console.log(numeros);
 //Mostrar en el cuerpo de la pagina
-document.write("<h1>Contenido del array</h1>");
-numeros.forEach((numero, index) => {
-    document.write("<strong>"+numero+"</strong><br>");
-});
+mostrarArray(numeros);
 
 //Ordenar y mostrar
 numeros.sort();
-console.log(numeros);
+mostrarArray(numeros);
