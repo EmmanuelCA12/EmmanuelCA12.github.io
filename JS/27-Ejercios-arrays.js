@@ -30,5 +30,5 @@ console.log(numeros);
 mostrarArray(numeros);
 
 //Ordenar y mostrar
-numeros.sort();
+numeros.sort(function(a,b){return a-b});
 mostrarArray(numeros, "ordenados");
