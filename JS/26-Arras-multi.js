@@ -11,12 +11,12 @@ peliculas2.reverse();
 
 console.log(peliculas1);
 console.log(peliculas2);
-var indice = peliculas.indexOf("King kong");
+var indice = peliculas1.indexOf("King kong");
 if (indice > -1) {
-    peliculas.splice(indice,1);
+    peliculas1.splice(indice,1);
 }
 
-var peliculas_string = peliculas.join();
+var peliculas1_string = peliculas1.join();
 
 var cadena = "texto1, texto2, texto3";
 var cadena_array = cadena.split(", ")
