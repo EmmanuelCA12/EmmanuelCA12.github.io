@@ -5,7 +5,7 @@ var categorias = ["Acción", "Terror", "Comedia", "Romance"];
 var peliculas1 = ["Transformes", "El Aro", "Son como niños", "La dama y el vagabundo"];
 var peliculas2 = ["Transformes", "El Aro", "Son como niños", "La dama y el vagabundo"];
 
-var cine = [categorias, peliculas];
+var cine = [categorias, peliculas2, peliculas1];
 peliculas1.sort();
 peliculas2.reverse();
 
