@@ -2,11 +2,15 @@
 
 
 var categorias = ["Acción", "Terror", "Comedia", "Romance"];
-var peliculas = ["Transformes", "El Aro", "Son como niños", "La dama y el vagabundo"];
+var peliculas1 = ["Transformes", "El Aro", "Son como niños", "La dama y el vagabundo"];
+var peliculas2 = ["Transformes", "El Aro", "Son como niños", "La dama y el vagabundo"];
 
 var cine = [categorias, peliculas];
-peliculas.sort();
-peliculas.reverse();
+peliculas1.sort();
+peliculas2.reverse();
+
+console.log(peliculas1);
+console.log(peliculas2);
 var indice = peliculas.indexOf("King kong");
 if (indice > -1) {
     peliculas.splice(indice,1);
