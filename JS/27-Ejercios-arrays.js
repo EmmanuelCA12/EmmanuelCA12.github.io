@@ -21,5 +21,5 @@ console.log(numeros);
 //Mostrar en el cuerpo de la pagina
 document.write("<h1>Contenido del array</h1>");
 numeros.forEach((numero, index) => {
-    document.write("<strog>"+numero"</strog>");
+    document.write("<strong>"+numero"</strong>");
 }
