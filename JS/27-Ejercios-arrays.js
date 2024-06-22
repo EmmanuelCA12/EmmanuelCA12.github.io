@@ -38,8 +38,7 @@ numeros.reverse(function(a,b){return b-a});
 mostrarArray(numeros, "invertido");
 
 //Elementos del array
-numeros.length;
-document.write("<h1>El Array tiene "+numeros+"</h1>");
+document.write("<h1>El Array tiene "+numeros.length+"</h1>");
 
 //Busqueda
 var busqueda = parseInt(prompt("Busca un número", 0));
