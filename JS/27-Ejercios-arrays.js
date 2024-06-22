@@ -22,4 +22,4 @@ console.log(numeros);
 document.write("<h1>Contenido del array</h1>");
 numeros.forEach((numero, index) => {
     document.write("<strong>"+numero+"</strong>");
-}
+});
