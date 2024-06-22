@@ -2,5 +2,5 @@
 
 // dom - Document object mode
 
-var caja = document.getElementById("Micaja");
+var caja = document.getElementById("Micaja").innerHTML;
 console.log(caja);
