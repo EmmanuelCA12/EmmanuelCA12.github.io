@@ -8,6 +8,14 @@ Invertir su orden y mostralo
 Mostrar cuantos elementos tiene el array
 Busqueda de un valor introducido por el usuario y que nos diga si esta en el array y que nos diga su posición
 */
+function mostrarArray (elementos) {
+    document.write("<h1>Contenido del array ordenado</h1>");
+    document.write("<ul>");
+    numeros.forEach((elementos, index) => {
+    document.write("<li>"+elementos+"</li>");
+});
+    document.write("</ul>");
+}
 
 //var numeros = new Array (6);
 //Pedir los números
@@ -16,6 +24,7 @@ for(var i=0; i<=5; i++){
     //numeros[i] = parseInt(prompt("Introduce un número", 0));
     numeros.push(parseInt(prompt("Introduce un número", 0))); 
 }
+mostrarArray(numeros);
 //Mostrar un array por la consola
 console.log(numeros);
 //Mostrar en el cuerpo de la pagina
@@ -23,3 +32,7 @@ document.write("<h1>Contenido del array</h1>");
 numeros.forEach((numero, index) => {
     document.write("<strong>"+numero+"</strong><br>");
 });
+
+//Ordenar y mostrar
+numeros.sort();
+console.log(numeros);
