@@ -34,6 +34,8 @@ seccion.appendChild(hr);
 
 //Conseguir elementos por su clase CSS
 var divsrojos = document.getElementsByClassName("rojo");
+var divsamarillos = document.getElementsByClassName("amarillo");
+divsamarillos[0].style.backgroundColor = "yellow";
 
 var div;
 for(div in divsrojos){
