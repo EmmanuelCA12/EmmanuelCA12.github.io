@@ -7,7 +7,7 @@ function modificaciones(color, fondo) {
     caja.style.color(color);
     caja.style.background(fondo);
 }
-
+modificaciones(color, fondo);
 var caja = document.getElementById("Micaja");
 
 console.log(caja);
