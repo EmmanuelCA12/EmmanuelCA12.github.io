@@ -32,5 +32,12 @@ Array.from(todosLosDivs).forEach(function(div) {
 
 seccion.appendChild(hr);
 
-// Imprimir en consola el elemento caja para verificar
-console.log(caja);
+//Conseguir elementos por su clase CSS
+var divsrojos = document.getElementsByClassName("rojo");
+
+var div;
+for(div in divsrojos){
+    if (divsrojos[div].className == "rojo") {
+        divsrojos[divs].style = "red";
+    }
+}
