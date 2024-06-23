@@ -9,7 +9,7 @@ function modificaciones(colores, fondo) {
     caja.style.color = colores;
     caja.style.backgroundColor = fondo;
 }
-var caja = document.getElementById("Micaja").innerHTML;
+var caja = document.getElementById("Micaja");
 modificaciones();
 
 
