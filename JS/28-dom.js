@@ -1,34 +1,36 @@
-'use strict'
+'use strict'; // Agregar comillas alrededor de 'use strict';
 
-//Conseguir elementos con ID concreto
-// dom - Document object mode
-function modificaciones(colores, fondo) {
+// Función para modificar estilos
+function modificaciones() {
     var colores = prompt("Brinda un color para el texto");
     var fondo = prompt("Ingresa un color para el fondo");
-    
 
+    var caja = document.getElementById("Micaja");
     caja.style.color = colores;
     caja.style.backgroundColor = fondo;
+
+    // Crear un hr después de modificar los estilos
+    var hr = document.createElement("hr");
+    caja.parentNode.appendChild(hr); // Asumiendo que caja tiene un padre adecuado
 }
-var caja = document.getElementById("Micaja");
+
+// Llamar a la función modificaciones para aplicar estilos
 modificaciones();
 
-//Conseguir elemento por su etiqueta
+// Obtener todos los divs y agregar su contenido a un nuevo párrafo en la sección
 var todosLosDivs = document.getElementsByTagName("div");
-
-var seccion = document.querySelector(#miselección);
+var seccion = document.querySelector('#misección'); // Corregir selector con comillas
 var hr = document.createElement("hr");
 
-var valor;
-for(valor in todosLosDivs){
-    if (typeof todosLosDivs[valor].textContent == "string") {
-        var parrafo = document.createElement("p");
-        var texto = document.createTextNode(todosLosDivs[valor].textContent);
-        parafo.append(texto);
-        seccion.append(parrafo);
-    }
-}
-seccion.append(hr);
-//Conseguir elementos por su clase css
+// Convertir HTMLCollection a array para poder iterar correctamente
+Array.from(todosLosDivs).forEach(function(div) {
+    var parrafo = document.createElement("p");
+    var texto = document.createTextNode(div.textContent);
+    parrafo.appendChild(texto);
+    seccion.appendChild(parrafo);
+});
 
+seccion.appendChild(hr);
+
+// Imprimir en consola el elemento caja para verificar
 console.log(caja);
