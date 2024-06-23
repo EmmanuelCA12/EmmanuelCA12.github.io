@@ -1,10 +1,10 @@
 'use strict'
 
 // dom - Document object mode
-function modificaciones(color, fondo) {
-    var color = prompt("Brinda un color para el texto");
+function modificaciones(colores, fondo) {
+    var colores = prompt("Brinda un color para el texto");
     var fondo = prompt("Ingresa un color para el fondo");
-    caja.style.color(color);
+    caja.style.color(colores);
     caja.style.background(fondo);
 }
 modificaciones();
