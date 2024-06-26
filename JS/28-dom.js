@@ -40,7 +40,7 @@ divsamarillos[0].style.backgroundColor = "white";
 var div;
 for(div in divsrojos){
     if (divsrojos[div].className == "rojo") {
-        divsrojos[divs].style = "red";
+        divsrojos[divs].style.backgroundColor = "red";
     }
 }
 
