@@ -6,10 +6,10 @@ var boton = document.querySelector("#boton");
 
 function cambiarcolor(){
     var bg = boton.style.background;
-    if(boton == "green"){
+    if(boton == "blue"){
         boton.style.background = "red";
     }else{
-        boton.style.background = "green";
+        boton.style.background = "blue";
     }
     return true;
 }
