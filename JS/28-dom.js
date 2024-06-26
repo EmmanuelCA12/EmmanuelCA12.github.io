@@ -35,7 +35,7 @@ seccion.appendChild(hr);
 //Conseguir elementos por su clase CSS
 var divsrojos = document.getElementsByClassName("rojo");
 var divsamarillos = document.getElementsByClassName("amarillo");
-divsamarillos[0].style.backgroundColor = "yellow";
+divsamarillos[0].style.background = "yellow";
 
 var div;
 for(div in divsrojos){
@@ -43,3 +43,7 @@ for(div in divsrojos){
         divsrojos[divs].style = "red";
     }
 }
+
+//Query selector
+var id =document.querySelector("#Encabezado");
+console.log(id);
