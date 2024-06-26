@@ -3,7 +3,7 @@
 window.addEventListener('load', () =>{
     
     //Timers
-    var tiempo = setInterval(function () {
+    var tiempo = setTimeout(function () {
        console.log("Set interval ejecutado"); 
 
        var Encabezado = document.querySelector("img");
