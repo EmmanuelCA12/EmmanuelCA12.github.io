@@ -19,7 +19,7 @@ function cambiarcolor(){
 var boton = document.querySelector("#boton");
 boton.addEventListener('click', function () {
     cambiarcolor();
-    alert("¡Auch!, no tan fuerte xD");
+   // alert("¡Auch!, no tan fuerte xD");
 });
 
 //MouseOver
