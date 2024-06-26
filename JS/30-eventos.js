@@ -22,4 +22,11 @@ boton.addEventListener('click', function () {
 });
 
 //MouseOver
+boton.addEventListener('mouseover', function () {
+   boton.style.background = "yellow"; 
+});
 
+//MouseOut
+boton.addEventListener('mouseout', function () {
+    boton.style.background = "#ccc";
+});
