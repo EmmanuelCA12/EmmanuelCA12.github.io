@@ -7,10 +7,10 @@ var boton = document.querySelector("#boton");
 function cambiarcolor(){
     console.log("Hola bebé");
     var bg = boton.style.background;
-    if(boton == "blue"){
+    if(boton == "green"){
         boton.style.background = "red";
     }else{
-        boton.style.background = "blue";
+        boton.style.background = "green";
     }
     return true;
 }
