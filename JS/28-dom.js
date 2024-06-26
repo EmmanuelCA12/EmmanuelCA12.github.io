@@ -43,7 +43,7 @@ for (var i = 0; i < divsamarillos.length; i++) {
 var div;
 for(div in divsrojos){
     if (divsrojos[div].className == "rojo") {
-        divsrojos[divs].style.backgroundColor = "red";
+        divsrojos[div].style.backgroundColor = "red";
     }
 }
 
