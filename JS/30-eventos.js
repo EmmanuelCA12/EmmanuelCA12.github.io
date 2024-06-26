@@ -14,7 +14,12 @@ function cambiarcolor(){
     }
     return;
 }
+
+// Click
 var boton = document.querySelector("#boton");
 boton.addEventListener('click', function () {
     cambiarcolor();
 });
+
+//MouseOver
+
