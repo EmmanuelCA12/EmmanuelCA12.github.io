@@ -12,7 +12,7 @@ function cambiarcolor(){
     }else{
         boton.style.background = "green";
     }
-    return true;
+    return;
 }
 var boton = document.querySelector("#boton");
 boton.addEventListener('click', function () {
