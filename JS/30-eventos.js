@@ -14,3 +14,7 @@ function cambiarcolor(){
     }
     return true;
 }
+var boton = document.querySelector("#boton");
+boton.addEventListener('click', function () {
+    cambiarcolor();
+})
